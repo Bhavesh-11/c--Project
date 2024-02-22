@@ -1,0 +1,12 @@
+﻿body {
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the width as needed */
+    gap: 10px; /* Adjust the gap between items */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
